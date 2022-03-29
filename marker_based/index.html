@@ -19,12 +19,15 @@
     renderer="logarithmicDepthBuffer: true;"
     embedded
     arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
+
+    
   >
-        <a-marker preset="hiro">
+  <a-entity id="snow" position="0 6 -15" particle-system="color: #ffffff" ></a-entity>    
+  <a-marker preset="hiro">
             <a-entity id="box" geometry="primitive: box; width: 0.2; depth: 0.2; height: 0.2" position="0 0 0" material="color: #4CC3D9"></a-entity>
             <a-sphere position="0.25 0.3 0" radius="0.12" color="#EF2D5E"></a-sphere>
             <a-cylinder rotation="-90 0 0" position="-0.25 -0.3 0" radius="0.12" height="0.3" color="#FFC65D"></a-cylinder>
-            <a-entity   rotationAxis = "z" position="0 0 0" particle-system="preset: snow"></a-entity>
+            
         </a-marker>
         <a-entity camera></a-entity>
         </a-scene>
