@@ -11,6 +11,8 @@
     <!-- speech command component -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.5.0/annyang.min.js"></script>
     <script src="build/aframe-speech-command-component.js"></script> 
+
+    
     
 
     <body style="margin : 0px; overflow: hidden;">
@@ -22,8 +24,9 @@
 
     
   >
-  <a-entity id="snow" position="0 6 -15" particle-system="color: #ffffff" ></a-entity>    
-  <a-marker preset="hiro">
+  <a-entity  id = "snow" id="annyang" annyang-speech-recognition  speech-command__start="command: start; type: attribute; attribute: visible; value: true;"
+  speech-command__stop="command: stop; type: attribute; attribute: visible; value: false;" position="0 5 -15" particle-system="color: white" ></a-entity>   
+   <a-marker preset="hiro">
             <a-entity id="box" geometry="primitive: box; width: 0.2; depth: 0.2; height: 0.2" position="0 0 0" material="color: #4CC3D9"></a-entity>
             <a-sphere position="0.25 0.3 0" radius="0.12" color="#EF2D5E"></a-sphere>
             <a-cylinder rotation="-90 0 0" position="-0.25 -0.3 0" radius="0.12" height="0.3" color="#FFC65D"></a-cylinder>
