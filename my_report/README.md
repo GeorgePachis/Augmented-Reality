@@ -1,8 +1,8 @@
 # Lesson: Interaction Design
 
-### First and Last Name: Georgios Pachis
+### First and Last Name: Γιώργος Παχής
 ### University Registration Number: dpsd17084
-### GitHub Personal Profile: GeorgePachis
+### GitHub Personal Profile: https://github.com/GeorgePachis
 ### Augmented Reality Personal Repository: https://georgepachis.github.io/Augmented-Reality/
 
 # Introduction
@@ -11,6 +11,7 @@
 
 
 # 1st Deliverable
+Αρχικά έκανα fork το repository 
 Προσθήκη κώδικα για να εμφανιστούν στην οθόνη ένας κύλινδρος και μια σφαίρα.
 (βάζω κώδικα)
 Προσθήκη κώδικα για να χιονίζει στην σκηνή μου. (βάζω κώδικα)
