@@ -31,6 +31,9 @@
 
 
 # Sources
+
 https://github.com/aframevr/aframe
+
 https://www.npmjs.com/package/aframe-speech-command-component
+
 https://github.com/IdeaSpaceVR/aframe-particle-system-component#readme
