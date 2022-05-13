@@ -27,9 +27,13 @@
 ![This is an image](https://github.com/GeorgePachis/Augmented-Reality/blob/main/marker_based/assets/DPSD17084_marker.png)
 
 Στη συνέχεια, παίρνοντας τις εικόνες του υδρογόνου και του οξυγόνου δημιούργησα χρησιμοποιώντας ξανά το ιδιο [εργαλείο](https://ar-js-org.github.io/AR.js/three.js/examples/marker-training/examples/generator.html) δυο markers με τα pattern τους αντίστοιχα. Στηρίχτηκα σε [αυτό](https://aframe.io/docs/1.3.0/components/gltf-model.html) και [αυτό](https://aframe.io/docs/1.3.0/core/asset-management-system.html) για να γράψω τον κώδικα ο οποίος ήταν παρόμοιας μορφής με τον παραπανω μόνο που έπρεπε να προστεθεί ένα αρχείο gltf αντί για μια εικόνα ή ενα text. 
-Χρησιμοποιώντας το blender και βλέποντας πρώτα κάποια tutorials οπως [αυτό](https://www.youtube.com/watch?v=pNA8ujgtogM και αυτό https://www.youtube.com/watch?v=E42OxbroToM) και [αυτό](https://www.youtube.com/watch?v=YD6_6WG0dIA), δημιούργησα δυο 3d models τα οποία αποθηκεύτηκαν ως gltf αρχεία. Έπειτα με κώδικα που στηρίχτηκε από [εδώ](https://aframe.io/docs/1.3.0/components/animation.html) δημιουργησα το animation και όταν φέρεις τα αντιστοιχα markers μπροστά απ την κάμερα δημιουργείται η ψευδαίσθηση ότι οι μικρές σφαίρες εκτελούν κυκλική κίνηση γύρω από το κύριο σώμα 
-Εικόνα οξυγόνου ![This is an image](https://github.com/GeorgePachis/Augmented-Reality/blob/main/marker_based/assets/oxygen_creation.jpg)
-Εικόνα υδρογόνου ![This is an image](https://github.com/GeorgePachis/Augmented-Reality/blob/main/marker_based/assets/hydrogen_creation.jpg)
+Χρησιμοποιώντας το blender και βλέποντας πρώτα κάποια tutorials οπως [αυτό](https://www.youtube.com/watch?v=pNA8ujgtogM) και [αυτό](https://www.youtube.com/watch?v=E42OxbroToM) και [αυτό](https://www.youtube.com/watch?v=YD6_6WG0dIA), δημιούργησα δυο 3d models τα οποία αποθηκεύτηκαν ως gltf αρχεία. Έπειτα με κώδικα που στηρίχτηκε από [εδώ](https://aframe.io/docs/1.3.0/components/animation.html) δημιουργησα το animation και όταν φέρεις τα αντιστοιχα markers μπροστά απ την κάμερα δημιουργείται η ψευδαίσθηση ότι οι μικρές σφαίρες εκτελούν κυκλική κίνηση γύρω από το κύριο σώμα
+
+### Εικόνα οξυγόνου 
+![This is an image](https://github.com/GeorgePachis/Augmented-Reality/blob/main/marker_based/assets/oxygen_creation.jpg)
+
+### Εικόνα υδρογόνου 
+![This is an image](https://github.com/GeorgePachis/Augmented-Reality/blob/main/marker_based/assets/hydrogen_creation.jpg)
 
 # 3rd Deliverable 
 
