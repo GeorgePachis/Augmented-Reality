@@ -20,7 +20,6 @@
     <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
     <script src="https://rawgit.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
     <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script> -->
-
     <body style="margin : 0px; overflow: hidden;">
         <a-scene
     vr-mode-ui="enabled: false;"
@@ -28,9 +27,7 @@
     embedded 
     arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
   
-
         <!-- 1rst Deliverable -->
-
   <!-- <a-entity  id = "snow" id="annyang" annyang-speech-recognition  speech-command__start="command: start; type: attribute; attribute: visible; value: true;"
   speech-command__stop="command: stop; type: attribute; attribute: visible; value: false;" position="0 5 -15" particle-system="color: white" ></a-entity> -->   
   
@@ -41,41 +38,36 @@
             
         </a-marker>
          <!-- 2nd Deliverable -->
-
         <a-marker-camera preset = "custom" type="pattern"  url="assets/DPSD17084.patt">
-
             <a-text text="value: Giorgos Pachis" rotation="-90 0 0" position = "-0.5 0.3 0.6" color="purple"></a-text>
-
             <a-image src="assets/me.png" rotation ="90 180 0"position = "0.2 0.3 0.1"></a-image>
-
         </a-marker-camera>
 
-        
-     <!--    <a-assets>
+
+        <a-assets>
             <a-asset-item id="Hydrogen" src="./assets/cone.gltf"></a-asset-item>
         </a-assets>
-       <a-marker id="hydrogen" type="pattern" url="./assets/pattern-card-H.patt">
+        <a-marker id="hydrogen" type="pattern" url="./assets/pattern-card-H.patt">
             <a-image src="assets/pattern-card-H.png" rotation="-90 0 0" width: 1.5; height: 1.5></a-image>
             <a-entity position="0 1 0" rotation="0 90 0" scale="0.3 0.3 0.3" gltf-model="#Hydrogen"
                 animation__rotate="property: rotation; dur: 5000; easing: linear; dir: normal; from:0 0 0; to: 360 0 0; loop: true;">
 
             </a-entity>
-        </a-marker> -->
-        
+        </a-marker>
+
         <a-assets>
-            <a-asset-item id="Oxygen" src="./assets/cube.gltf"></a-asset-item>
+            <a-asset-item id="Oxygen" src="./assets/untitled.gltf"></a-asset-item>
         </a-assets>
         <a-marker id="oxygen" type="pattern" url="./assets/pattern-card-O.patt">
-            <a-image src="./assets/pattern-card-O.png" rotation="-90 0 0" width: 1.5; height: 1.5></a-image>
+            <a-image src="assets/pattern-card-O.png" rotation="-90 0 0" width: 1.5; height: 1.5></a-image>
             <a-entity position="0 1 0" scale="0.3 0.3 0.3" gltf-model="#Oxygen"
                 animation__rotate="property: rotation; dur: 5000; easing: linear; dir: normal; from:0 0 0; to: 0 0 360; loop: true;">
 
             </a-entity>
         </a-marker>
-                          
+
 
         <a-entity camera></a-entity>
-
         </a-scene>
     </body>
 </html>
