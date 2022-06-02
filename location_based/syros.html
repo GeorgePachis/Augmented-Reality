@@ -16,10 +16,11 @@
 		embedded
         arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
 
-        <a-entity gps-entity-place="latitude: 44.4908615; longitude: 11.3326416;" gltf-model="./assets/magnemite/scene.gltf" rotation="0 180 0" animation-mixer scale="0.15 0.15 0.15"/>
+        <a-entity gps-entity-place="latitude: 37.444642; longitude: 24.8998766;" gltf-model="./assets/magnemite/scene.gltf" rotation="0 180 0" animation-mixer scale="0.15 0.15 0.15"/>
         
+        <!-- 37.444642, 24.8998766 -->
         
-        
-        <a-camera gps-camera rotation-reader></a-camera>
+        <a-camera rotation-reader
+        gps-camera="simulateLatitude: 37.444642; simulateLongitude: 24.8998766; minDistance: 1; maxDistance: 700;"></a-camera>
 	</a-scene>
 </body>
