@@ -40,7 +40,7 @@
 ### Εικόνα γοργόνας
 ![This is an image](https://github.com/GeorgePachis/Augmented-Reality/blob/main/location_based/assets/Mermaid.jpg)
 
-Για το τρίτο κομμάτι του παραδοτέου αναζήτησα ένα ακόμη 3δ μοντέλο που αναπαριστά την μορφή ενός ψαριού απο [εδώ](https://www.cgtrader.com/items/729340/download-page?fbclid=IwAR2lb30deEZ2h2m-PlcCWPTNvqCU8QX5njgS9oJudQlRLEUdisKBCWhzIV4)το οποίο με ένα animation κινείται κυκλικά γύρω απο ένα νοητό σημείο και παραπέμπει σε ένα ενυδρείο που βρίσκεται και αυτό στο χωριό Κίνι της Σύρου. Στο gps-camera αλλά και στο ίδιο το enity προσαρμόστηκαν οι συντεταγμένες τους. Όλες οι συντεταγμένες για το μνημείο της γοργόνας και το ενυδρείο εντοπίστηκαν μέσα από το [Google Maps](https://www.google.com/maps). Τέλος πρόσθεσα με παρόμοιο τρόπο ένα κείμενο που δίνει πληροφορίες για το ενυδρείο και εμφανίζεται κάνοντας κλικ πάνω στο κινούμενο ψάρι.Το κείμενο βρέθηκε σε [αυτή](https://www.syrosisland.gr/kini-aquarium/) την ιστοσελίδα. 
+Για το τρίτο κομμάτι του παραδοτέου αναζήτησα ένα ακόμη 3δ μοντέλο που αναπαριστά την μορφή ενός ψαριού απο [εδώ](https://www.cgtrader.com/items/729340/download-page?fbclid=IwAR2lb30deEZ2h2m-PlcCWPTNvqCU8QX5njgS9oJudQlRLEUdisKBCWhzIV4) το οποίο με ένα animation κινείται κυκλικά γύρω απο ένα νοητό σημείο και παραπέμπει σε ένα ενυδρείο που βρίσκεται και αυτό στο χωριό Κίνι της Σύρου. Στο gps-camera προσαρμόστηκαν οι συντεταγμένες του ενυδρείου. Όλες οι συντεταγμένες για το μνημείο της γοργόνας και το ενυδρείο εντοπίστηκαν μέσα από το [Google Maps](https://www.google.com/maps). Τέλος πρόσθεσα με παρόμοιο τρόπο ένα κείμενο που δίνει πληροφορίες για το ενυδρείο και εμφανίζεται κάνοντας κλικ πάνω στο κινούμενο ψάρι.Οι πληροφορίες για το ενυδρείο βρέθηκαν σε [αυτή](https://www.syrosisland.gr/kini-aquarium/) την ιστοσελίδα. 
 ### Εικόνα ψαριού
 ![This is an image](https://github.com/GeorgePachis/Augmented-Reality/blob/main/location_based/assets/fish.jpg)
 
@@ -49,8 +49,8 @@
 
 # Sources
 
-https://github.com/aframevr/aframe
+[A-frame](https://github.com/aframevr/aframe)
 
-https://www.npmjs.com/package/aframe-speech-command-component
+[About-Speech-Command-Component](https://www.npmjs.com/package/aframe-speech-command-component)
 
-https://github.com/IdeaSpaceVR/aframe-particle-system-component#readme
+[A-frame-Particle System](https://github.com/IdeaSpaceVR/aframe-particle-system-component#readme)
