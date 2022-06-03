@@ -16,7 +16,7 @@
 		embedded
         arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
 
-        <a-entity  class="click" gltf-model="./assets/fish.gltf" animation="property: rotation; from:-90 0 0; to: -90 0 360; loop: true; dur: 4500"  gps-entity-place="latitude: 37.4446; longitude: 24.8998;" scale = "0.5 0.5 0.5 ">
+        <a-entity  class="click" gltf-model="./assets/fish.gltf" animation="property: rotation; from:-90 0 0; to: -90 0 360; loop: true; dur: 4500"  gps-entity-place="latitude: 37.4446; longitude: 24.8998;" position="0 1 -6" scale = "0.5 0.5 0.5 ">
               
                
 
@@ -24,7 +24,7 @@
         
         <!-- 37.444642, 24.8998766 -->
         
-        <a-camera id="camera" gps-camera rotation-reader 
+        <a-camera  gps-camera rotation-reader 
 gps-camera="latitude: 37.4446; longitude:  24.8998; minDistance: 1; maxDistance: 700;">
 </a-camera>
 </body>
