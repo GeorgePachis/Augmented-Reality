@@ -8,20 +8,40 @@
     <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
    <!-- <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>-->
     <script src='build/aframe-ar-nft.js'></script>
+    <script>
+        AFRAME.registerComponent("information", {
+          init: function() {
+          let toggle = false
+            this.el.addEventListener("click", (e) => {
+              let text = document.querySelectorAll(".clickable")
+              text.forEach(function(el) {
+                  el.setAttribute("visible", toggle)
+              })
+              toggle = !toggle
+            })
+          }
+        })
+  </script>
 </head>
 
 <body style='margin: 0; overflow: hidden;'>
     <a-scene
         vr-mode-ui="enabled: false"
+        cursor='rayOrigin: mouse'
 		embedded
         arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
 
-        <a-entity  class="click" gltf-model="./assets/fish.gltf" animation="property: rotation; from:-90 0 0; to: -90 0 360; loop: true; dur: 4500"  gps-entity-place="latitude: 37.4446; longitude: 24.8998;" position="0 1 -6" scale = "0.5 0.5 0.5 ">
+        <a-entity  class="click" gltf-model="./assets/fish.gltf" animation="property: rotation; from:0 0 0; to: 0 360 0; loop: true; dur: 4500"  gps-entity-place="latitude: 37.4446; longitude: 24.8998;" position="0 2 -7" scale = "0.4 0.4 0.4 " information>
               
                
 
         </a-entity>
-        
+        <a-text id="text_info" class="clickable" text="value: Kini SYROS Aquarium"
+        position="-6.5 0 -50"
+      color= "#FFC65D"
+      scale="5 5 5"
+      visible="false">
+ </a-text>
         <!-- 37.444642, 24.8998766 -->
         
         <a-camera  gps-camera rotation-reader 
