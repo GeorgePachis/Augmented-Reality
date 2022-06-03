@@ -9,7 +9,7 @@
     <script src='build/aframe-ar-nft.js'></script>
 
     <script>
-        AFRAME.registerComponent("information", {
+        AFRAME.registerComponent("show", {
           init: function() {
           let toggle = false
             this.el.addEventListener("click", (e) => {
@@ -35,7 +35,7 @@
 		arjs='sourceType: webcam; debugUIEnabled: false;' >
 
          
-    <a-entity  class="click" gltf-model="./assets/Mermaid.gltf" position = "0 1 -300" animation="property: rotation; from:-90 0 0; to: -90 0 360; loop: true; dur: 4500"  gps-entity-place="latitude: 37.4462; longitude: 24.9003;" scale = "0.5 0.5 0.5 " information>
+    <a-entity  class="click" gltf-model="./assets/Mermaid.gltf" position = "0 1 -300" animation="property: rotation; from:-90 0 0; to: -90 0 360; loop: true; dur: 4500"  gps-entity-place="latitude: 37.4462; longitude: 24.9003;" scale = "0.5 0.5 0.5 " show>
               
                             
                
